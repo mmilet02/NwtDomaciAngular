@@ -1,0 +1,32 @@
+<input type="text" id="search-input" placeholder="Search..." (keyup)="handleSearch()">
+<div class="productW">
+
+  <div class="product" *ngFor="let proizvod of (proizvodi | async)">
+
+    <div class="content-header">
+      <div class="ime">
+        <h2>
+          <a [routerLink]="['/proizvod', proizvod.id]" routerLinkActive="router-link-active">{{ proizvod.naziv }}</a>
+        </h2>
+        <app-add-favorite class="add_favorite" [proizvod]="proizvod"></app-add-favorite>
+      </div>
+      <h3>{{proizvod.cijena}} kn</h3>
+
+
+
+    </div>
+    <div class="content-main">
+      <div class="image-wrapper">
+        <img src="../../../assets/images/{{ proizvod.slika }}" alt={proizvod.naziv} />
+      </div>
+      <div class="text">
+        <p class="opis">{{proizvod.opis}}</p>
+
+      </div>
+    </div>
+    <div className="content-footer">
+      <app-ocjena [komentari]="proizvod.komentari"></app-ocjena>
+
+    </div>
+  </div>
+</div>

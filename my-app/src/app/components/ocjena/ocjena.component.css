@@ -1,0 +1,17 @@
+.ocjena{
+    display: flex;
+    justify-content: space-between;
+}
+i {
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  i:hover:before, i:hover ~ i:before {
+    color: gold;
+  }
+  .rate-stars{
+
+    display: flex;
+    flex-direction: row-reverse;
+  }

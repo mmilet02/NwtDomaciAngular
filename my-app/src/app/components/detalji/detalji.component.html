@@ -1,0 +1,21 @@
+<div class="content">
+  <div class="content-head">
+    <h2>
+      <i class="fas fa-arrow-left" [routerLink]="['']" routerLinkActive="router-link-active"></i>
+      {{proizvod.naziv}}
+      <app-add-favorite [proizvod]='proizvod'></app-add-favorite>
+    </h2>
+    <h2>{{proizvod.cijena}} kn</h2>
+  </div>
+  <div class="main-content">
+    <div class="img-wrapper">
+      <img src="../../../assets/images/{{ proizvod.slika }}" alt={proizvod.naziv} />
+    </div>
+    <p>{{proizvod.opis}}</p>
+  </div>
+  <app-ocjena [komentari]="proizvod.komentari"></app-ocjena>
+
+</div>
+
+<hr />
+<app-komentari [komentari]='proizvod.komentari'></app-komentari>

@@ -1,0 +1,42 @@
+.layout {
+    max-width: 1000px;
+    margin: auto;
+}
+main{
+    display: flex;
+}
+// .side{
+//     width: 25%;
+// }
+
+// .route{
+//     width: 75%;
+// }
+@media all and (min-width: 850px) {
+    main {
+      display: grid;
+      grid-template-columns: 75% 25%;
+      grid-gap: 20px;
+      .content {
+        grid-column: 1/2;
+      }
+      .sidebar {
+        grid-column: 2/3;
+      }
+    }
+  }
+  @media all and (max-width: 850px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .content {
+        grid-column: 1/2;
+      }
+      .sidebar {
+        grid-column:1/2 ;
+      }
+
+  }
+

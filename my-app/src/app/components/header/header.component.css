@@ -1,0 +1,10 @@
+header {
+    padding: 20px;
+  }
+  
+  header img {
+    width: 200px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+  }

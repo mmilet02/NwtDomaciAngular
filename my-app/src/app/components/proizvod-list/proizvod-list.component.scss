@@ -1,0 +1,77 @@
+.productsW {
+  display: block;
+}
+.product {
+  padding: 20px;
+  box-shadow: 3px 4px 7px 1px #484848;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.ime{
+  display: flex;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.content-header h2 {
+  margin: 0;
+}
+.add_favorite{
+  margin-top: 7px;
+}
+.content-header h2 a {
+  color: rgb(236, 96, 96);
+  text-decoration: none;
+}
+
+.content-header h2 a:hover {
+  color: rgb(240, 27, 27);
+}
+
+.content-header h3 {
+  margin: 0;
+}
+
+.content-main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content-footer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.image-wrapper{
+  width: 30%;
+}
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.text{
+
+  width: 60%;
+}
+#search-input{
+
+  background-image: url('../../../assets/images/magnifier.png');
+  background-position: 8px 7px;
+  background-repeat: no-repeat;
+  width: 87%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  box-shadow: 3px 4px 7px 1px #484848;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}

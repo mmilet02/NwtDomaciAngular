@@ -1,0 +1,14 @@
+.favorite{
+    padding: 10px;
+    box-shadow: 3px 4px 7px 1px #484848;
+}
+
+.favorite a{
+    text-decoration: none;
+    color: rgb(236, 96, 96);
+}
+
+.favorite a:hover{
+    
+  color: rgb(240, 27, 27);
+}

@@ -1,0 +1,61 @@
+
+.fa-arrow-left {
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(236, 96, 96);
+  }
+  .fa-arrow-left:hover {
+    color: red;
+  }
+  
+  .fa-arrow-left.added {
+    color: red;
+  }
+  .content{
+    padding: 20px;
+    box-shadow: 3px 4px 7px 1px #484848;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-right: 200px;
+  }
+  .content-head{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+  .content-head h2 i {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .main-content .img-wrapper img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .recenzija {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .recenzija .usr-image-wrapper {
+    margin-right: 20px;
+  }
+  
+  .recenzija .usr-image-wrapper img {
+    max-width: 70px;
+  }
+  
+  .recenzija .recenzija-wrapper .username {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .recenzija .recenzija-wrapper .rating .fas.fa-star {
+    color: yellow;
+  }
+  
+  

@@ -1,0 +1,11 @@
+i {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  i:hover {
+    color: red;
+  }
+  
+  i.added {
+    color: red;
+  }

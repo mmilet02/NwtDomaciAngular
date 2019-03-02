@@ -1,0 +1,9 @@
+<div class="komentar" *ngFor="let komentar of komentari">
+  <div class="image-wrapper">
+    <img src="../../../assets/images/profile.png" alt=profil />
+  </div>
+  <div>
+    <p>Ime:{{komentar.ime}} , ({{komentar.ocjena}})</p>
+    <p>Komentar: {{komentar.misljenje}}</p>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="favorite">
+  <h3>Favoriti</h3>
+  <ol>
+    <li *ngFor="let fav of favorite" routerLinkActive="router-link-active">
+      <a [routerLink]="['/proizvod', fav.id]">{{ fav.naziv }}</a>
+    </li>
+  </ol>
+</div>
